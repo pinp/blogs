@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "last_modify": 1493943467554,
+  "user_name": "pinp",
+  "imported_repos": [],
+  "repos_name": "blogs",
+  "repos_desc": "Blog",
+  "doc_list": [
+    {
+      "path": "md/D170407-03.txt",
+      "tag": "H50.中文",
+      "markdown": true,
+      "title": "深入使用拼文系统",
+      "modify_at": 1493886923970,
+      "create_at": 1491526182299,
+      "desc": "本文介绍拼文制作系统的高级使用技巧，包括如何管理博客，如何绘制图表，还有常用组件的关键属性介绍，文章如何打包、传递等。",
+      "thumb": "md/res/D170407-03/pinp_tutorial.jpg"
+    },
+    {
+      "path": "md/D170407-02.txt",
+      "tag": "H60.中文",
+      "markdown": true,
+      "title": "如何撰写一份博客？",
+      "modify_at": 1493886658107,
+      "create_at": 1491525349015,
+      "desc": "本文介绍如何撰写一篇 PINP 博客，包括如何用 markdown 编辑文章正文，如何定义缩略图、简介，如何引用胶片页中的组件。",
+      "thumb": "md/res/D170407-02/blog_icon.jpg"
+    },
+    {
+      "path": "md/D170407-01.txt",
+      "tag": "H70.中文",
+      "markdown": false,
+      "title": "如何撰写一份演示胶片？",
+      "modify_at": 1493857247928,
+      "create_at": 1491524785623,
+      "desc": "如何用 PINP 撰写一份演示胶片？介绍了创建胶片、编写内容、保存文档等过程，本文同时还是 PINP 胶片的一份样例。",
+      "thumb": "md/res/D170407-01/pinp_sample.png"
+    },
+    {
+      "path": "md/D170406-02.txt",
+      "tag": "H80.中文",
+      "markdown": true,
+      "title": "什么是拼文？",
+      "modify_at": 1493943467554,
+      "create_at": 1491469828716,
+      "desc": "本篇介绍 \"拼文\" 是什么？它适用于哪些场景，以及，如何制作、如何发布等。",
+      "thumb": "md/res/D170406-02/pinp_logo.png"
+    },
+    {
+      "path": "md/D170406-01.txt",
+      "tag": "H90.中文",
+      "markdown": true,
+      "title": "网志：拼文产品开发",
+      "modify_at": 1491526800031,
+      "create_at": 1491450632363,
+      "desc": "本文除了记录拼文产品的开发与维护过程中发生过的大事，还预告该产品计划要做的事情。",
+      "thumb": "md/res/D170406-01/netblog.png"
+    }
+  ]
+}

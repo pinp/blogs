@@ -1,0 +1,41 @@
+网志：拼文产品开发
+---------------
+
+&nbsp;
+
+本文除了记录拼文产品的开发与维护过程中发生过的大事，还预告该产品计划要做的事情。
+
+&nbsp;
+
+### 已计划的工作 **（进行中）**
+
+- 撰写《用拼文编程 —— 软件工程师使用手册》
+
+- 支持在线编辑拼文（通过访问 github.io 网站，在线编辑文档） 
+
+&nbsp;
+
+### 已发生的事件
+
+- ##### 2017-04-05 **发布首个内部测试版本**
+
+:: 重构后首个版本发布，提供内部测试，功能已齐备，用户手册尚缺。
+
+- ##### 2017-01-11 **启动 "github 拼文" 重构开发**
+
+:: 由于 www.pinp.me 的拼文系统已重构，"github 拼文" 跟随重构，三分之二代码要重写。
+
+- ##### 2015-08-28 **发布 "github 拼文" V1.0 版本**
+
+- ##### 2015-07-12 **启动 "github 拼文" 产品开发**
+
+:: 在 www.pinp.me 已提供一个演示胶片编辑系统的基础上，新建一个名为 "github 拼文" 的开发项目，用来适配 github.com 版本管理环境，并借助 github.io 可发布静态网页的能力，实现拼文系统在 github 上免费托管。
+
+:: 本项目目标：让 github.io 适合用于发布 "拼文"，包括博客与演示胶片两种文档形式。通常在客户端机器编写文档，也即在本地编辑文档，然后用 `git push` 提交到 github 即完成网上发布。
+
+&nbsp;
+<!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
+<div $=ScenePage key='auto0'></div>
+<div $=ScenePage key='auto1' no-show='1'>
+  <div $=".pinp.doc_info.thumb" no-show='' left='{-202}' top='{-105}' style='{{"background":"url(md/res/D170406-01/netblog.png) no-repeat center","backgroundSize":"100% 100%"}}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
+</div>

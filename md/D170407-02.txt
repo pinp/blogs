@@ -1,0 +1,127 @@
+如何撰写一份博客？
+--------------
+
+&nbsp;
+
+本文介绍如何撰写一篇 PINP 博客，包括如何用 markdown 编辑文章正文，如何定义缩略图、简介，如何引用胶片页中的组件。
+
+在本文之前您应先阅读本教材的《什么是拼文》与《如何撰写一份演示胶片》。
+
+### 1. 仅用 markdown 撰写博客
+
+#### 1.1 编辑主界面
+
+在《什么是拼文》一文已介绍如何创建一份博客文档，创建文档后在博客首页的文章列表中，用鼠标点击 `"Edit"` 按钮，系统将打开一个编辑器页面，如下图：
+
+![编辑界面](md/res/D170407-02/main_gui.jpg)
+
+界面左侧是预览，右侧是 markdown 文本编辑器。在右侧用 markdown 格式撰写文章内容，随时用 `cmd + s`（针对 MAC 系统）或 `ctrl + s`（针对 Windows 系统）热键保存，保存后，左侧预览界面将自动更新。
+
+右侧编辑区的顶部工具按钮，依次为：
+
+1. Reload preview，重新读入预览内容。
+2. Switch layout，切换布局，缺省布局左预览右编辑，切换后可改为上下分割。
+3. Edit slide，编辑胶片页
+4. Change font size，切换编辑器文字大小
+5. Save document，存盘，热键为 `cmd + s` 或 `ctrl + s`
+6. Preview size，改变预览区占用比例，当它的占比超过 50% 时，编辑区若有修改将自动刷新预览，触发条件是键入回车换行。
+
+#### 1.2 文章的标题与简介
+
+存盘时，系统尝试自动找出文章的标题与简介，这两项信息在博客主页列出最近文章时使用。编写 markdown 文本时，首次遇到如下定义（八项中任一项），将自动被认作 "标题"：
+
+```
+Title 1
+-------
+
+Title 2
+=======
+
+# Title 3
+
+## Title 4
+
+### Title 5
+
+#### Title 6
+
+##### Title 7
+
+###### Title 8
+```
+
+与此类似，首次遇到的段落正文被视作 "简介"，简介文字宜控制在 40 至 250 字之间。
+
+### 2. 在胶片页定义标题、简介、缩略图等
+
+一篇文档保存到磁盘是一个 `"*.txt"` 文件，文件内容分为 "内容主文本" 与 "胶片页定义" 两部分，前者就是刚才介绍的用 markdown 书写的部分，后者要另打开 "胶片编辑器" 进行编辑，点击 Edit slide 按钮 ![editor](md/res/D170407-02/editor.png)，浏览器将在新一页打开 "胶片编辑器"。
+
+《如何撰写一份演示胶片》一文已介绍如何定义文章的标题、简介、关键字、缩略图，无非从右侧拖入相应的样板，创建相应组件后，修改它的内容或配置。这种通用胶片内中组件定义标题或简介，属于显式定义，上文介绍的从 markdown 文本中自动查找的方式，是隐式定义。**"显式定义" 优先于 "隐式定义"**，即，如果在胶片页中显式定义了标题，系统就不会从 "内容主文本" 中的 markdown 找标题。
+
+另外，对于博客类型的文档，第一张胶片页要求空白，不放内容，它有固定用途。"内容主文本" 将自动被系统移到首个胶片页中显示，而从第二张开始各胶片页要求隐藏不可见，即 `noShow` 属性要设为 `"1"`，这些胶片页中适合存放不便用 markdown 直接定义的组件，如表格、chart 统计图、流程图等，这些组件在隐藏的胶片页中存在，所以不会显示到界面，只有在 "内容主文本" 引用后，才在首个胶片页中展示出来。
+
+也就是说，应用于博客的胶片页，首页真正用于显示，其后各页只用于辅助设计。当新建的博客刚开始编辑胶片页时，系统缺省已预备两页胶片，`noShow` 属性已正确设置，您只需从第二页复制出其后的第三页、第四页等即可。
+
+### 3. 引用胶片页中的组件
+
+比如下图是 "认知的四层境界"（从 "不知道自己不知道" 到 "不知道自己知道"），因为不好在 "内容主文本" 中表达，我们就在胶片页中用 `DrawPaper` 绘制，再在主文本中引用。
+
+<div $=".body.auto1.draw"></div>
+
+下面介绍该引用的实现过程。
+
+第 1 步，点击 Edit slide 按钮 ![editor](md/res/D170407-02/editor.png)，打开 "胶片编辑器"。
+
+第 2 步，在胶片页（非首页）创建一个 DrawPaper 组件，然后绘制上图，绘图过程略去，后面教材还有介绍。
+
+第 3 步，选中新建的 DrawPaper 组件，指定它 `key` 值为 `"draw"`。
+
+第 4 步，点击左边栏 Save 按钮，保存胶片。然后点击该 DrawPaper 组件的 Copy as linker 浮动按钮 ![copy](md/res/D170407-02/copy2.png)。
+
+第 5 步，回到 "内容主文本" 的 markdown 编辑器，用热键 `cmd + v`（或 `ctrl + v`）粘贴在上一步拷得的内容，保存当前编辑内容。
+
+第 6 步，点击 Reload preview 按钮 ![preview](md/res/D170407-02/preview.png)，检查左侧预览区显示的结果是否预期。
+
+简要而言，上述操作过程就是：在胶片页中设计一个组件，**拷贝该组件的引用描述**，粘贴到主 markdown 文本即可。要求给被引用的组件指定 key 值，是因为若非显式指定，各组件的 key 值会自动分配，容易导致引用错位，即，引用路径在 markdown 文本中粘贴后，因胶片页继续编辑而变化。
+
+&nbsp;
+<!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
+<div $=ScenePage key='auto0'></div>
+<div $=ScenePage key='auto1' no-show='1'>
+  <div $=".pinp.doc_info.thumb" style='{{"background":"url(md/res/D170407-02/blog_icon.jpg) no-repeat center","backgroundSize":"100% 100%"}}' no-show='' left='{-445}' top='{-75}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
+  <div $=rewgt.DrawPaper key='draw' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{400}' height='{335}' style='{{"zIndex":"-999"}}' left='{-57}' top='{-144}' def-id='_1492002997'>
+    <div $=rewgt.SvgPanel key='auto2' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{139}' top='{148}' width='{44}' style='{{"strokeColor":"#888","fillColor":"#eee","zIndex":"1"}}' svg.cfg='{[0,[],"lib/res/ellipse.svg.json"]}' stroke='{2}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>自己</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto4' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{8}' top='{151}' width='{320}' height='{72}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-1,["",0,0,2,0,0,36,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto7' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{141}' top='{44}' width='{41}' height='{260}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-1,["",0,0,2,0,27.5,0,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto8' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{118}' top='{17}' width='{128}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>知道（动词）</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto9' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{94}' top='{283}' width='{128}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>不知道</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto10' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{11}' top='{132}' width='{72}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>不知道</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto11' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{265}' top='{132}' width='{128}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>知道（名词）</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto12' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{41}' top='{219}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>境界1</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto13' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{186}' top='{220}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>境界4</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto14' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{188}' top='{84}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>境界3</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto15' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{40}' top='{84}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>境界2</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto17' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{51}' top='{44}' width='{108}' height='{103}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,44,0,33.17647058823529,4.672077922077922,0,5.420454545454545],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto19' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{56}' top='{192}' width='{94}' height='{106}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,34.941176470588225,5.644726485635576,31.23529411764705,1.3759316899812772,0,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto20' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{166}' top='{48}' width='{96}' height='{104}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,0,0,9.23955936052042,5.446428571428571,36.47414771855533,6.424242424242424],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto21' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{182}' top='{188}' width='{88}' height='{109}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,0,5.901304962255375,1.9592059734110263,1.2904055311080112,30.989500789876022,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+  </div>
+</div>

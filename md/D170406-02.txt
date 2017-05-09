@@ -1,0 +1,174 @@
+什么是拼文？
+--------
+
+&nbsp;
+
+本篇介绍 "拼文" 是什么？它适用于哪些场景，以及，如何制作、如何发布等。
+
+&nbsp;
+
+### 1. 扼要解释拼文是什么？
+
+拼文是一种文档格式，简单来讲，拼文等效于 **"WORD + PPT + SPA"**。
+
+这里 WORD 与 PPT 指微软公司发行两款知名软件，SPA（[Single Page Application](https://en.wikipedia.org/wiki/Single-page_application)）指基于 Web 网页的 "单页应用"。
+
+或者，我们可以把拼文理解为用特定工具制作的，具有特定格式的网页，这种网页以表现文本信息为主，但也允许在文本基础上实施轻度编程，甚至重度编程。
+
+#### 1.1 拼文系统是谁开发的？
+
+拼文系统是免费的、开放的系统，它由 `pinp.me` 团队研发，耗时四年，现已在 [github.com/rewgt](https://github.com/rewgt) 及 [github.com/pinp](https://github.com/pinp) 开源。
+
+#### 1.2 拼文的应用场景
+
+如果孤立使用拼文，它等效于保存在电脑中 WORD 文档、PPT 胶片，可以各自打开编辑或浏览。
+
+多篇拼文还可以组成博客系统，托管于本机，或托管于服务端，如 `github.io`,  `pinp.me` 等，为互联网用户提供在线访问。
+
+拼文系统还应用于前端软件开发，在拼文开发体系中，遵循 "写作即编程" 的理念，用户既可实施简单编程来拓展文档表现力，也可以重度编程，甚至用它开发微信或微博的前端系统，都是可能的。
+
+### 2. 如何入门拼文系统？
+
+如果不拿拼文编程，入门过程会很简单，按顺序学完本系列教程即可，本文是第一篇，学习每一篇，最好按提示步骤，边学边练。
+
+如果用拼文编程，您应按 PINP 系统的依赖层次，逐层学习各层组件的接口如何调用。其中，重点是学习《Shadow Widget用户手册》。
+
+<div $=".body.auto1.blog_stack"></div>
+
+:: :: （PINP 层次图）
+
+### 3. 安装拼文软件
+
+#### 3.1 预备知识
+
+与拼文制作、发布直接相关的工具或平台有 4 个：
+
+1. git 版本管理工具与 github.com 版本管理平台
+2. markdown 文法规则
+3. shadow-widget 开发平台
+4. PINP Blogs 管理工具
+
+这四项中，我们要求读者预先掌握前两项（即 git/github 与 markdown），剩下两项在本系列教材从零开始学起。
+
+本系统遵循 John Gruber 的 Markdown 语法规则，<a target="_blank" href="http://daringfireball.net/projects/markdown/syntax">入门教材在这里</a>，对应中文译稿可<a target="_blank" href="http://wowubuntu.com/markdown/#list">参考这份</a>。
+
+#### 3.2 安装
+
+第 1 步，访问 github.com/rewgt/blogs 项目主页，点击右上角 Fork 按钮，将 `blogs` 项目 fork 到您自己的账号下。
+
+第 2 步，在本机安装 shadow-widget 开发环境
+
+``` bash
+mkdir user
+cd user
+git clone https://github.com/rewgt/shadow-server.git
+```
+
+第 3 步，在本机克隆刚 fork 过来的 `blogs` 项目
+
+``` bash
+git clone https://github.com/<your_account>/blogs.git
+```
+
+克隆后，您应能按如下地址访问自己的 github 博客主页：
+
+``` html
+https://<your_account>.github.io/blogs/
+```
+
+#### 3.3 启动本地的 localhost 的 web 服务
+
+``` bash
+cd shadow-server
+npm start
+```
+
+缺省情况下，Web 服务启动在 3000 端口，在浏览器中这么访问：`http://localhost:3000/blogs/`，打开的页面是本项目博客的主页，如下图，点击主菜单，用弹出菜单项创建新文档或管理现有文档。
+
+![Blog 界面](md/res/D170406-02/blog_ui.png)
+
+### 4. 拼文的输出
+
+#### 4.1 内容主文件与资源文件
+
+每篇拼文的输出文件包括：
+
+1. 一个文本文件，也称 "内容主文件"   
+用 markdown 格式记录文章主体内容，该文件通常保存在当前项目 md 子目录下，比如：`md/D170407-05.txt`。
+
+2. 若干个资源文件   
+内容主文件最终会转化成 html 网页格式，网页中会引用若干资源，比如图片、json数据等，这些文件存放在 `md/res/` 目录下。为方便管理，我们建议每篇文档所引用的资源文件都集中保存到 `md/res/` 下与内容主文件同名的子目录下，比如 `md/res/D170407-05/`。这样更容易搬迁文档。
+
+#### 4.2 内容主文件的组成
+
+大家知道，一份 markdown 文本可以完整描述一篇文章，但用它表达不了一份胶片，我们需要在 markdown 之外再叠加一种格式才行，后面我们会介绍这种格式叫转义标签。
+
+拼文开创性的把一篇文档划分为 **"内容主文本"** 与 **"胶片页定义"** 两部分，两者之间以一行固定格式的文字分割，该标记行定义如下：
+
+``` html
+< !-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
+```
+
+如果我们创建胶片文档，只使用这两部分的 "胶片页定义" 即可，如果创建博客文档，既可以只使用 "内容主文本" 部分，也可以两部分都用，但胶片页只显示首页，其余页隐藏，这时：
+
+- 博客主文本将自动生成到胶片首页，胶片页也蜕化为满屏、无边框的形式
+- 在除首页外的胶片页中，可以定义统计图表（如直方图、饼图等）、表格、流程图等，因为这些组件用纯粹的 markdown 不容易定义，要有配套的、易于编辑的可视化设计器才行，改在胶片页中设计较轻松。然后，博客主文本依次引用胶片页（已隐藏）中的这些组件。比如本文上面 "PINP 层次图"，就是在正文引用胶片页中的流程图实现的。
+
+"内容主文本" 加 "胶片页定义" 的格式还服务于 SPA 编程，暂不展开介绍，大家先清楚一个概念：拼文这种格式，把易于表达文字材料的 markdown 与便于做可视化设计的胶页中组件，揉合一起了。
+
+### 5. 创建、编辑及发布拼文的操作过程
+
+本工具支持创建两类拼文，一类是演示胶片，与 PPT 类似，另一类是博客，与 WORD 类似。在用户操作界面，这两者均以 markdown 为主要格式编辑文字内容。
+
+#### 5.1 创建文档
+
+选择 `Create document` 主菜单项，弹出如下对话框：
+
+![创建文档](md/res/D170406-02/create_doc.jpg)
+
+图中，`"Document type"` 选择待创建文档的类型（博客或演示胶片），`"Prefix string"` 用于排序，当您的主页被访问时，首页将罗列各篇文档的简介，各篇以 `Prefix string` 加上文件名为依据逆序排列，由于文件名是系统根据创建时间自动生成（比如 `D170407-05.txt`，含义为 17 年 4 月 7 日的第 5 篇文档），`"Prefix string"` 可以理解为 **置顶标记**，如果缺省不指定，系统只按文件名的逆序排列，这意味着新发布的文章列顶部。如果想将旧文章置顶，需指定 `Prefix string`，比如指定 `"Head20"`，它就排在所有未指定 `Prefix string` 的项目之前。
+
+在 `"Category"` 一栏指定文档类组，类组名将在博客主页的顶部工具条出现，比如，下图使用了 `"English"` 与 `"中文"` 两个类别，如果新建的文档未指定 `Category`，它将只列在 `"All"` 分类下。
+
+![文档类组](md/res/D170406-02/doc_type.png)
+
+#### 5.2 编辑文档
+
+按上一步骤新创建文档，博客主页将会增加类似下图的项目，点击缩略图右侧的 `Edit` 按钮，游览器将打开新页编辑这篇文档。
+
+![文档项目](md/res/D170406-02/new_item.png)
+
+#### 5.3 存盘
+
+在文档编辑界面可随时点击 "保存" 按钮，将当前内容存盘，存盘时系统会自动提取文章的标题、简介、缩略图，更新到全局配置表。之后，刷新博客主页，您将发现刚更改那篇的缩略图与简介自动更新了。
+
+#### 5.4 联网发布
+
+在本机编辑的文档，保存于 blogs 项目下，而 blogs 项目如前所述，从 `github.com` 克隆而来，我们只需将本机更改过的 blogs 项目提交回 github，就完成新文章联网发布了。运行如下命令：
+
+``` bash
+git add .
+git commit -m "modification message"
+git push -u origin gh-pages
+```
+
+&nbsp;
+<!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
+<div $=ScenePage key='auto0'></div>
+<div $=ScenePage key='auto1' no-show='1'>
+  <div $=".pinp.doc_info.thumb" style='{{"background":"url(md/res/D170406-02/pinp_logo.png) no-repeat center","backgroundSize":"100% 100%"}}' no-show='' left='{-334}' top='{-101}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
+  <div $=rewgt.DrawPaper key='blog_stack' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{265}' height='{232}' style='{{"zIndex":"-999"}}' offset-x='{-57}' offset-y='{-5}' left='{-37}' top='{-119}'>
+    <div $=rewgt.SvgPanel key='auto2' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{101}' top='{179}' width='{168}' style='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>React</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto3' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{101}' top='{78}' width='{168}' style='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>Shadow Slide</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto4' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{100}' top='{128}' width='{168}' style='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>Shadow Widget</pre>
+    </div>
+    <div $=rewgt.SvgPanel key='auto5' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{101}' top='{27}' width='{168}' style='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
+      <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>PINP Blogs</pre>
+    </div>
+  </div>
+</div>
