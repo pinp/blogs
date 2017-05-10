@@ -56,7 +56,13 @@
 
 第 1 步，访问 github.com/rewgt/blogs 项目主页，点击右上角 Fork 按钮，将 `blogs` 项目 fork 到您自己的账号下。
 
-第 2 步，在本机安装 shadow-widget 开发环境
+Fork 后，您应能按如下地址访问自己的 github 博客主页：
+
+``` html
+https://<your_account>.github.io/blogs/
+```
+
+第 2 步，在本机安装 shadow-widget 运行环境
 
 ``` bash
 mkdir user
@@ -68,12 +74,6 @@ git clone https://github.com/rewgt/shadow-server.git
 
 ``` bash
 git clone https://github.com/<your_account>/blogs.git
-```
-
-克隆后，您应能按如下地址访问自己的 github 博客主页：
-
-``` html
-https://<your_account>.github.io/blogs/
 ```
 
 #### 3.3 启动本地的 localhost 的 web 服务
