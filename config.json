@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_modify": 1495634665566,
+  "last_modify": 1495811986659,
   "user_name": "pinp",
   "imported_repos": [],
   "repos_name": "blogs",
@@ -31,7 +31,7 @@
       "tag": "H70.中文",
       "markdown": false,
       "title": "如何撰写一份演示胶片？",
-      "modify_at": 1493857247928,
+      "modify_at": 1495811986659,
       "create_at": 1491524785623,
       "desc": "如何用 PINP 撰写一份演示胶片？介绍了创建胶片、编写内容、保存文档等过程，本文同时还是 PINP 胶片的一份样例。",
       "thumb": "md/res/D170407-01/pinp_sample.png"
@@ -41,7 +41,7 @@
       "tag": "H80.中文",
       "markdown": true,
       "title": "什么是拼文？",
-      "modify_at": 1493943467554,
+      "modify_at": 1495757397872,
       "create_at": 1491469828716,
       "desc": "本篇介绍 \"拼文\" 是什么？它适用于哪些场景，以及，如何制作、如何发布等。",
       "thumb": "md/res/D170406-02/pinp_logo.png"

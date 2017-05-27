@@ -88,40 +88,40 @@ Title 2
 <!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
 <div $=ScenePage key='auto0'></div>
 <div $=ScenePage key='auto1' no-show='1'>
-  <div $=".pinp.doc_info.thumb" style='{{"background":"url(md/res/D170407-02/blog_icon.jpg) no-repeat center","backgroundSize":"100% 100%"}}' no-show='' left='{-445}' top='{-75}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
-  <div $=rewgt.DrawPaper key='draw' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{400}' height='{335}' style='{{"zIndex":"-999"}}' left='{-57}' top='{-144}' def-id='_1492002997'>
-    <div $=rewgt.SvgPanel key='auto2' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{139}' top='{148}' width='{44}' style='{{"strokeColor":"#888","fillColor":"#eee","zIndex":"1"}}' svg.cfg='{[0,[],"lib/res/ellipse.svg.json"]}' stroke='{2}'>
+  <div $=".pinp.doc_info.thumb" sty__='{{"background":"url(md/res/D170407-02/blog_icon.jpg) no-repeat center","backgroundSize":"100% 100%"}}' no-show='' left='{-445}' top='{-75}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
+  <div $=rewgt.DrawPaper key='draw' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{400}' height='{335}' sty__='{{"zIndex":"-999"}}' left='{-57}' top='{-144}' def-id='_1492002997'>
+    <div $=rewgt.SvgPanel key='auto2' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{139}' top='{148}' width='{44}' sty__='{{"strokeColor":"#888","fillColor":"#eee","zIndex":"1"}}' svg.cfg='{[0,[],"lib/res/ellipse.svg.json"]}' stroke='{2}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>自己</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto4' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{8}' top='{151}' width='{320}' height='{72}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-1,["",0,0,2,0,0,36,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
-    <div $=rewgt.SvgPanel key='auto7' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{141}' top='{44}' width='{41}' height='{260}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-1,["",0,0,2,0,27.5,0,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
-    <div $=rewgt.SvgPanel key='auto8' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{118}' top='{17}' width='{128}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto4' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{8}' top='{151}' width='{320}' height='{72}' sty__='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-1,["",0,0,2,0,0,36,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto7' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{141}' top='{44}' width='{41}' height='{260}' sty__='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-1,["",0,0,2,0,27.5,0,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto8' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{118}' top='{17}' width='{128}' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>知道（动词）</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto9' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{94}' top='{283}' width='{128}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto9' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{94}' top='{283}' width='{128}' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>不知道</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto10' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{11}' top='{132}' width='{72}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto10' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{11}' top='{132}' width='{72}' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>不知道</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto11' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{265}' top='{132}' width='{128}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto11' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{265}' top='{132}' width='{128}' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>知道（名词）</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto12' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{41}' top='{219}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto12' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{41}' top='{219}' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>境界1</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto13' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{186}' top='{220}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto13' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{186}' top='{220}' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>境界4</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto14' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{188}' top='{84}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto14' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{188}' top='{84}' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>境界3</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto15' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{40}' top='{84}' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto15' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{40}' top='{84}' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>境界2</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto17' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{51}' top='{44}' width='{108}' height='{103}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,44,0,33.17647058823529,4.672077922077922,0,5.420454545454545],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
-    <div $=rewgt.SvgPanel key='auto19' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{56}' top='{192}' width='{94}' height='{106}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,34.941176470588225,5.644726485635576,31.23529411764705,1.3759316899812772,0,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
-    <div $=rewgt.SvgPanel key='auto20' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{166}' top='{48}' width='{96}' height='{104}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,0,0,9.23955936052042,5.446428571428571,36.47414771855533,6.424242424242424],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
-    <div $=rewgt.SvgPanel key='auto21' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{182}' top='{188}' width='{88}' height='{109}' style='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,0,5.901304962255375,1.9592059734110263,1.2904055311080112,30.989500789876022,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto17' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{51}' top='{44}' width='{108}' height='{103}' sty__='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,44,0,33.17647058823529,4.672077922077922,0,5.420454545454545],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto19' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{56}' top='{192}' width='{94}' height='{106}' sty__='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,34.941176470588225,5.644726485635576,31.23529411764705,1.3759316899812772,0,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto20' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{166}' top='{48}' width='{96}' height='{104}' sty__='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,0,0,9.23955936052042,5.446428571428571,36.47414771855533,6.424242424242424],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+    <div $=rewgt.SvgPanel key='auto21' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{182}' top='{188}' width='{88}' height='{109}' sty__='{{"strokeColor":"#666","fillColor":"#666"}}' svg.cfg='{[-2,["2,2",0,0,2,0,5.901304962255375,1.9592059734110263,1.2904055311080112,30.989500789876022,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
   </div>
 </div>

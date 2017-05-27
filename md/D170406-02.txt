@@ -80,6 +80,7 @@ git clone https://github.com/<your_account>/blogs.git
 
 ``` bash
 cd shadow-server
+npm install
 npm start
 ```
 
@@ -156,18 +157,18 @@ git push -u origin gh-pages
 <!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
 <div $=ScenePage key='auto0'></div>
 <div $=ScenePage key='auto1' no-show='1'>
-  <div $=".pinp.doc_info.thumb" style='{{"background":"url(md/res/D170406-02/pinp_logo.png) no-repeat center","backgroundSize":"100% 100%"}}' no-show='' left='{-334}' top='{-101}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
-  <div $=rewgt.DrawPaper key='blog_stack' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{265}' height='{232}' style='{{"zIndex":"-999"}}' offset-x='{-57}' offset-y='{-5}' left='{-37}' top='{-119}'>
-    <div $=rewgt.SvgPanel key='auto2' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{101}' top='{179}' width='{168}' style='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
+  <div $=".pinp.doc_info.thumb" sty__='{{"background":"url(md/res/D170406-02/pinp_logo.png) no-repeat center","backgroundSize":"100% 100%"}}' no-show='' left='{-334}' top='{-101}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
+  <div $=rewgt.DrawPaper key='blog_stack' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{265}' height='{232}' sty__='{{"zIndex":"-999"}}' offset-x='{-57}' offset-y='{-5}' left='{-37}' top='{-119}'>
+    <div $=rewgt.SvgPanel key='auto2' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{101}' top='{179}' width='{168}' sty__='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>React</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto3' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{101}' top='{78}' width='{168}' style='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto3' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{101}' top='{78}' width='{168}' sty__='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>Shadow Slide</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto4' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{100}' top='{128}' width='{168}' style='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto4' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{100}' top='{128}' width='{168}' sty__='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>Shadow Widget</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto5' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{101}' top='{27}' width='{168}' style='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto5' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{101}' top='{27}' width='{168}' sty__='{{"strokeColor":"#888","fillColor":"#eee"}}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>PINP Blogs</pre>
     </div>
   </div>

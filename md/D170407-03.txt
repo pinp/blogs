@@ -262,7 +262,7 @@ blogs 项目路径下有一个 `index.html` 文件，这是 blogs 主页入口�
 <!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
 <div $=ScenePage key='auto0'></div>
 <div $=ScenePage key='auto7' no-show='1'>
-  <pre $=MarkedTable key='param' data-group.optid='pinp/blogs/step0' width='{781}' klass='S5 small-default-large default-align_center-right p1-p2-p3-p0 no_shadow-lb-rb-rt-lt rewgt-tbl tbl_01' border-width='{1}' style='{{"borderColor":"#808080"}}' left='{-328}' top='{-170}'>参数
+  <pre $=MarkedTable key='param' data-group.optid='pinp/blogs/step0' width='{781}' klass='S5 small-default-large default-align_center-right p1-p2-p3-p0 no_shadow-lb-rb-rt-lt rewgt-tbl tbl_01' border-width='{1}' sty__='{{"borderColor":"#808080"}}' left='{-328}' top='{-170}'>参数
 
 功能与默认值
 
@@ -335,8 +335,8 @@ loopback
 </pre>
 </div>
 <div $=ScenePage key='auto1' no-show='1'>
-  <div $=".pinp.doc_info.thumb" style='{{"background":"url(md/res/D170407-03/pinp_tutorial.jpg) no-repeat center","backgroundSize":"100% 100%"}}' no-show='' left='{-459}' top='{-70}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
-  <div $=rewgt.DrawPaper key='blog_group' style='{{"zIndex":"-999"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{460}' height='{272}' offset-x='{-45}' offset-y='{-46}' left='{-120}' top='{-147}' def-id='_1492044921'>
+  <div $=".pinp.doc_info.thumb" sty__='{{"background":"url(md/res/D170407-03/pinp_tutorial.jpg) no-repeat center","backgroundSize":"100% 100%"}}' no-show='' left='{-459}' top='{-70}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{280}' height='{200}'></div>
+  <div $=rewgt.DrawPaper key='blog_group' sty__='{{"zIndex":"-999"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{460}' height='{272}' offset-x='{-45}' offset-y='{-46}' left='{-120}' top='{-147}' def-id='_1492044921'>
     <div $=rewgt.SvgPanel key='auto2' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{57}' top='{60}' svg.cfg='{[0,[null,[["auto5",-1,"auto3"]]],"lib/res/rect.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>博客组</pre>
     </div>
@@ -354,7 +354,7 @@ loopback
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>他人的博客</pre>
     </div>
     <div $=rewgt.SvgPanel key='auto17' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{77}' top='{169}' width='{99}' height='{115}' svg.cfg='{[-1,["",0,0,1,0,0,0,51,43,51],"lib/res/arrows.svg.json"]}' data-from='auto3'></div>
-    <div $=rewgt.SvgPanel key='auto18' style='{{"fillColor":"rgba(0,0,0,0)","strokeColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{156}' top='{262}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto18' sty__='{{"fillColor":"rgba(0,0,0,0)","strokeColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{156}' top='{262}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>...</pre>
     </div>
     <div $=rewgt.SvgPanel key='auto19' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{292}' top='{121}' width='{44}' height='{60}' stroke='{1}' data-zero='1' svg.cfg='{[0,[null,[["auto26",-1,"auto22"],["auto28",-1,"auto23"]]],"lib/res/point_node.svg.json"]}'></div>
@@ -365,14 +365,14 @@ loopback
     <div $=rewgt.SvgPanel key='auto23' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{359}' top='{158}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>类组N</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto24' style='{{"fillColor":"rgba(0,0,0,0)","strokeColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{353}' top='{120}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto24' sty__='{{"fillColor":"rgba(0,0,0,0)","strokeColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{353}' top='{120}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>...</pre>
     </div>
     <div $=rewgt.SvgPanel key='auto28' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{282}' top='{119}' width='{102}' height='{91}' svg.cfg='{[-1,["",0,0,1,0,0,0,27,46,27],"lib/res/arrows.svg.json"]}' data-from='auto19'></div>
     <div $=rewgt.SvgPanel key='auto30' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{358}' top='{226}' svg.cfg='{[0,[],"lib/res/rect.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>类组1</pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto31' style='{{"fillColor":"rgba(0,0,0,0)","strokeColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{353}' top='{255}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto31' sty__='{{"fillColor":"rgba(0,0,0,0)","strokeColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{353}' top='{255}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>...</pre>
     </div>
     <div $=rewgt.SvgPanel key='auto26' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{282}' top='{81}' width='{101}' height='{102}' svg.cfg='{[-1,["",0,0,1,0,38,0,0,45,0],"lib/res/arrows.svg.json"]}' data-from='auto19'></div>

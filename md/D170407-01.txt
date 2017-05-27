@@ -1,38 +1,38 @@
 <!-- SLIDE PAGES V1.0, DO NOT CHANGE THIS LINE. -->
 <div $=ScenePage key='auto0'>
-  <div $=".pinp.doc_info.title" style='{{"fontWeight":"600"}}' no-show='' left='{-248}' top='{-50}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden align_center-right-default S3' data-group.optid='pinp/blogs/steps' width='{500}'>如何撰写一份演示胶片？</div>
+  <div $=".pinp.doc_info.title" sty__='{{"fontWeight":"600"}}' no-show='' left='{-248}' top='{-50}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden align_center-right-default S3' data-group.optid='pinp/blogs/steps' width='{500}'>如何撰写一份演示胶片？</div>
   <div $=".pinp.doc_info.desc" no-show='' left='{-197}' top='{68}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/steps' width='{452}'>如何用 PINP 撰写一份演示胶片？介绍了创建胶片、编写内容、保存文档等过程，本文同时还是 PINP 胶片的一份样例。</div>
-  <div $=".pinp.doc_info.thumb" style='{{"background":"url(md/res/D170407-01/pinp_sample.png) no-repeat center","backgroundSize":"100% 100%"}}' no-show='{1}' left='{-70}' top='{-24}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{140}' height='{100}'></div>
+  <div $=".pinp.doc_info.thumb" sty__='{{"background":"url(md/res/D170407-01/pinp_sample.png) no-repeat center","backgroundSize":"100% 100%"}}' no-show='{1}' left='{-70}' top='{-24}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden default-align_center-right' data-group.optid='pinp/blogs/step4' width='{140}' height='{100}'></div>
   <div $=Div data-group.optid='pinp/blogs/steps' width='{400}' klass='default-large-small default-align_center-right p1-p2-p3-p0 visible-auto-hidden' left='{-196}' top='{31}'>
     <div class='rewgt-static'><p>内容提要：</p></div>
   </div>
 </div>
 <div $=ScenePage key='auto4'>
   <div $=P klass='default-large-small hidden-visible-auto' data-group.optid='rewgt/shadow-slide/steps' width='{675}' height='{431}' left='{-347}' top='{-212}'>
-    <span $=Img style='{{"height":"100%","width":"100%"}}' src='md/res/D170407-01/main_screen.png'></span>
+    <span $=Img sty__='{{"height":"100%","width":"100%"}}' src='md/res/D170407-01/main_screen.png'></span>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{133}' height='{93}' left='{-343}' top='{47}' def-id='_1491874832'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='y-default-flip_x nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog5.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='y-default-flip_x nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog5.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='small-default-large p1-p2-p3-p0 align_center-right-default' padding='{[20,10,0,10]}'>快捷工具栏</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{146}' height='{79}' left='{237}' top='{-250}' def-id='_1491874832'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog5.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog5.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='small-default-large p1-p2-p3-p0 align_center-right-default' padding='{[0,10,18,10]}'>样板资源页</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{206}' height='{93}' left='{-114}' top='{-231}' def-id='_1491874832'>
-    <div $=rewgt.SvgPanel key='test' style='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog5.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='test' sty__='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog5.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='small-default-large p1-p2-p3-p0 align_center-right-default' padding='{[0,10,18,10]}'>场景页缩略列表</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{168}' height='{74}' left='{-278}' top='{-98}' def-id='_1491874832'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='flip_x-y-default nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog3.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='flip_x-y-default nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog3.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='small-default-large p1-p2-p3-p0 align_center-right-default' padding='{[0,10,18,10]}'>主设计区</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{94}' height='{95}' left='{272}' top='{-183}' data-prepost='2-3-0-0-0' def-id='_1491874832'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='y-default-flip_x nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog4.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='y-default-flip_x nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog4.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default S5' padding='{[24,6,0,6]}'>**点击按钮切换资源页**</pre>
     </div>
   </div>
@@ -42,26 +42,26 @@
 </div>
 <div $=ScenePage key='auto15'>
   <div $=P klass='default-large-small hidden-visible-auto' data-group.optid='rewgt/shadow-slide/steps' left='{-292}' top='{-145}'>
-    <span $=Img style='{{"width":"509px","height":"334px"}}' src='md/res/D170407-01/screen2.png'></span>
+    <span $=Img sty__='{{"width":"509px","height":"334px"}}' src='md/res/D170407-01/screen2.png'></span>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{124}' height='{88}' left='{63}' top='{-203}' def-id='_1491874832'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog14.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"rgba(240,240,240,0.9)","strokeColor":"#888"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog14.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default S5' padding='{[0,10,10,10]}'>1) 鼠标双击  
 切换到该页</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{178}' height='{106}' left='{-90}' top='{57}' data-prepost='9-3-0-0-0' def-id='_1491877086'>
-    <div $=rewgt.SvgPanel style='{{"strokeColor":"#888","fillColor":"rgba(0,0,0,0.08)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/star24.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"strokeColor":"#888","fillColor":"rgba(0,0,0,0.08)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/star24.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default S5'>2) 鼠标点击，   
 选中胶片页</pre>
     </div>
   </div>
-  <div $=rewgt.DrawPaper style='{{"zIndex":"0"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{519}' height='{198}' left='{-254}' top='{-144}' def-id='_1491874832' data-prepost='13-3-0-0-0'>
-    <div $=rewgt.SvgPanel key='auto4' style='{{"strokeColor":"rgb(127, 63, 0)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{21}' top='{93}' width='{32}' stroke='{1}' svg.cfg='{[0,["1,1"],"lib/res/ellipse.svg.json"]}'>
+  <div $=rewgt.DrawPaper sty__='{{"zIndex":"0"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{519}' height='{198}' left='{-254}' top='{-144}' def-id='_1491874832' data-prepost='13-3-0-0-0'>
+    <div $=rewgt.SvgPanel key='auto4' sty__='{{"strokeColor":"rgb(127, 63, 0)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{21}' top='{93}' width='{32}' stroke='{1}' svg.cfg='{[0,["1,1"],"lib/res/ellipse.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'></pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto5' style='{{"strokeColor":"rgb(127, 63, 0)","fillColor":"rgb(127, 63, 0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{37}' width='{352}' height='{98}' svg.cfg='{[-2,["1,1",0,0,2,0,3.198773763884761,62.14328358208956,5.975781482171489,196.4179104477612,4.223315569176104,289.6477611940299,0],"lib/res/arrows.svg.json"]}' stroke='{1}' top='{51}'></div>
-    <div $=rewgt.SvgPanel key='auto7' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{327}' top='{78}' width='{176}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto5' sty__='{{"strokeColor":"rgb(127, 63, 0)","fillColor":"rgb(127, 63, 0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{37}' width='{352}' height='{98}' svg.cfg='{[-2,["1,1",0,0,2,0,3.198773763884761,62.14328358208956,5.975781482171489,196.4179104477612,4.223315569176104,289.6477611940299,0],"lib/res/arrows.svg.json"]}' stroke='{1}' top='{51}'></div>
+    <div $=rewgt.SvgPanel key='auto7' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{327}' top='{78}' width='{176}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>3) 拖到这里，将在此  
 插入经复制的胶片页</pre>
     </div>
@@ -75,20 +75,20 @@
     <div class='rewgt-static'><p><b><span class="S4">如何移动（或删除）胶片页？</span></b></p></div>
   </div>
   <div $=P klass='default-large-small hidden-visible-auto' data-group.optid='rewgt/shadow-slide/steps' left='{-228}' top='{-160}'>
-    <span $=Img style='{{"width":"509px","height":"334px"}}' src='md/res/D170407-01/screen2.png'></span>
+    <span $=Img sty__='{{"width":"509px","height":"334px"}}' src='md/res/D170407-01/screen2.png'></span>
   </div>
-  <div $=rewgt.DrawPaper style='{{"zIndex":"0"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{319}' height='{226}' left='{-213}' top='{-160}' def-id='_1491874832' data-prepost='undefined'>
-    <div $=rewgt.SvgPanel key='auto4' style='{{"strokeColor":"rgb(127, 63, 0)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{21}' top='{93}' width='{32}' stroke='{1}' svg.cfg='{[0,["1,1"],"lib/res/ellipse.svg.json"]}'>
+  <div $=rewgt.DrawPaper sty__='{{"zIndex":"0"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{319}' height='{226}' left='{-213}' top='{-160}' def-id='_1491874832' data-prepost='undefined'>
+    <div $=rewgt.SvgPanel key='auto4' sty__='{{"strokeColor":"rgb(127, 63, 0)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{21}' top='{93}' width='{32}' stroke='{1}' svg.cfg='{[0,["1,1"],"lib/res/ellipse.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'></pre>
     </div>
-    <div $=rewgt.SvgPanel key='auto5' style='{{"strokeColor":"rgb(127, 63, 0)","fillColor":"rgb(127, 63, 0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{37}' width='{238}' height='{80}' svg.cfg='{[-2,["1,1",0,0,2,0,3.5217889791372734,40.066472515471425,4.522213013535179,108.11066618128866,1.2975421725767413,188.9775027302512,0],"lib/res/arrows.svg.json"]}' stroke='{1}' top='{71}'></div>
-    <div $=rewgt.SvgPanel key='auto7' style='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{22}' top='{150}' width='{248}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
+    <div $=rewgt.SvgPanel key='auto5' sty__='{{"strokeColor":"rgb(127, 63, 0)","fillColor":"rgb(127, 63, 0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{37}' width='{238}' height='{80}' svg.cfg='{[-2,["1,1",0,0,2,0,3.5217889791372734,40.066472515471425,4.522213013535179,108.11066618128866,1.2975421725767413,188.9775027302512,0],"lib/res/arrows.svg.json"]}' stroke='{1}' top='{71}'></div>
+    <div $=rewgt.SvgPanel key='auto7' sty__='{{"strokeColor":"rgba(0,0,0,0)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{22}' top='{150}' width='{248}' svg.cfg='{[0,[],"lib/res/rect2.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>如果拖这个按钮，将移动当前  
 胶片页（常用来调整页序）</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{255}' height='{97}' left='{-213}' top='{52}' data-prepost='13-3-0-0-0' def-id='_1491878268'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"rgba(0,0,0,0.08)","strokeColor":"#888"}}' klass='y-default-flip_x nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog5.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"rgba(0,0,0,0.08)","strokeColor":"#888"}}' klass='y-default-flip_x nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/dialog5.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default S5' padding='{[18,10,0,10]}'>选择当前胶片页后，  
 点击此按钮可删除当前页</pre>
     </div>
@@ -99,19 +99,19 @@
     <div class='rewgt-static'><p><b><span class="S4">在胶片页中创建组件</span></b></p></div>
   </div>
   <div $=P klass='default-large-small hidden-visible-auto' data-group.optid='rewgt/shadow-slide/steps' left='{-320}' top='{-171}'>
-    <span $=Img style='{{"width":"384px","height":"342px"}}' src='md/res/D170407-01/drag_create.png'></span>
+    <span $=Img sty__='{{"width":"384px","height":"342px"}}' src='md/res/D170407-01/drag_create.png'></span>
   </div>
-  <div $=rewgt.DrawPaper style='{{"zIndex":"0"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{344}' height='{222}' left='{-361}' top='{-72}' def-id='_1491879187'>
-    <div $=rewgt.SvgPanel key='auto2' style='{{"strokeColor":"rgb(255, 0, 127)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{199}' top='{14}' height='{80}' stroke='{2}' svg.cfg='{[0,["2,2",[["auto3",-2]]],"lib/res/flowchart83.svg.json"]}' width='{128}'></div>
-    <div $=rewgt.SvgPanel key='auto3' style='{{"strokeColor":"rgb(255, 0, 127)","fillColor":"rgb(255, 0, 127)","zIndex":"-1"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{67}' top='{45}' width='{152}' height='{65}' stroke='{2}' svg.cfg='{[-2,["5,5",0,0,2,112,0,78,19,0,25],"lib/res/arrows.svg.json"]}' data-align='bottom,285' data-from=''></div>
+  <div $=rewgt.DrawPaper sty__='{{"zIndex":"0"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{344}' height='{222}' left='{-361}' top='{-72}' def-id='_1491879187'>
+    <div $=rewgt.SvgPanel key='auto2' sty__='{{"strokeColor":"rgb(255, 0, 127)","fillColor":"rgba(0,0,0,0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{199}' top='{14}' height='{80}' stroke='{2}' svg.cfg='{[0,["2,2",[["auto3",-2]]],"lib/res/flowchart83.svg.json"]}' width='{128}'></div>
+    <div $=rewgt.SvgPanel key='auto3' sty__='{{"strokeColor":"rgb(255, 0, 127)","fillColor":"rgb(255, 0, 127)","zIndex":"-1"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{67}' top='{45}' width='{152}' height='{65}' stroke='{2}' svg.cfg='{[-2,["5,5",0,0,2,112,0,78,19,0,25],"lib/res/arrows.svg.json"]}' data-align='bottom,285' data-from=''></div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{200}' height='{69}' left='{49}' top='{-204}' def-id='_1491879313'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"rgba(0,0,0,0.08)","strokeColor":"#888"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[0,[],"lib/res/dialog11.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"rgba(0,0,0,0.08)","strokeColor":"#888"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[0,[],"lib/res/dialog11.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default S5' padding='{[0,20,10,20]}'>1) 选择某组样板</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{249}' height='{77}' left='{-402}' top='{22}' def-id='_1491879445'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"rgba(0,0,0,0.08)","strokeColor":"#888"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[0,[],"lib/res/cloud.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"rgba(0,0,0,0.08)","strokeColor":"#888"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[0,[],"lib/res/cloud.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default S5'>2) 拖入一个样板到设计区</pre>
     </div>
   </div>
@@ -127,35 +127,35 @@
 </div>
 <div $=ScenePage key='auto22'>
   <div $=P klass='default-large-small hidden-visible-auto' data-group.optid='rewgt/shadow-slide/steps' left='{-225}' top='{-167}'>
-    <span $=Img style='{{"width":"384px","height":"342px"}}' src='md/res/D170407-01/drag_create.png'></span>
+    <span $=Img sty__='{{"width":"384px","height":"342px"}}' src='md/res/D170407-01/drag_create.png'></span>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S5' width='{294}' height='{168}' left='{-243}' top='{-49}' def-id='_1491880473'>
-    <div $=rewgt.SvgPanel style='{{"strokeColor":"#c66","fillColor":"transparent"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{1}' svg.cfg='{[0,[],"lib/res/flowchart83.svg.json"]}'></div>
+    <div $=rewgt.SvgPanel sty__='{{"strokeColor":"#c66","fillColor":"transparent"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{1}' svg.cfg='{[0,[],"lib/res/flowchart83.svg.json"]}'></div>
   </div>
   <div $=Div data-group.optid='pinp/blogs/steps' width='{181}' klass='default-large-small default-align_center-right p1-p2-p3-p0 visible-auto-hidden' left='{-231}' top='{13}'>
     <div class='rewgt-static'><p>这两个是 static 样板</p></div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S5' width='{295}' height='{182}' left='{52}' top='{-55}' def-id='_1491880473'>
-    <div $=rewgt.SvgPanel style='{{"strokeColor":"#c66","fillColor":"transparent"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{1}' svg.cfg='{[0,[],"lib/res/flowchart83.svg.json"]}'></div>
+    <div $=rewgt.SvgPanel sty__='{{"strokeColor":"#c66","fillColor":"transparent"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{1}' svg.cfg='{[0,[],"lib/res/flowchart83.svg.json"]}'></div>
   </div>
   <div $=Div data-group.optid='pinp/blogs/steps' width='{200}' klass='default-large-small right-default-align_center p1-p2-p3-p0 visible-auto-hidden' left='{133}' top='{14}'>
     <div class='rewgt-static'><p>这两个是 markdown 样板</p></div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S5' width='{213}' height='{85}' left='{182}' top='{-165}' def-id='_1491880473'>
-    <div $=rewgt.SvgPanel style='{{"strokeColor":"#c66","fillColor":"transparent"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{1}' svg.cfg='{[0,[],"lib/res/flowchart83.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"strokeColor":"#c66","fillColor":"transparent"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{1}' svg.cfg='{[0,[],"lib/res/flowchart83.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>这一组是 static 样板</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S5' width='{122}' height='{52}' left='{82}' top='{-142}' def-id='_1491881158'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"#666","strokeColor":"#c66"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[-1,["2,2",0,0,0,0,0,36,0],"lib/res/arrows.svg.json"]}'></div>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"#666","strokeColor":"#c66"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[-1,["2,2",0,0,0,0,0,36,0],"lib/res/arrows.svg.json"]}'></div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S5' width='{213}' height='{85}' left='{-342}' top='{-148}' def-id='_1491880473'>
-    <div $=rewgt.SvgPanel style='{{"strokeColor":"#c66","fillColor":"transparent"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{1}' svg.cfg='{[0,[],"lib/res/flowchart83.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"strokeColor":"#c66","fillColor":"transparent"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{1}' svg.cfg='{[0,[],"lib/res/flowchart83.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default'>这一组是 markdown 样板</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S5' width='{122}' height='{52}' left='{-153}' top='{-126}' def-id='_1491881158'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"#666","strokeColor":"#c66"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[-1,["2,2",0,0,0,0,0,36,0],"lib/res/arrows.svg.json"]}'></div>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"#666","strokeColor":"#c66"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[-1,["2,2",0,0,0,0,0,36,0],"lib/res/arrows.svg.json"]}'></div>
   </div>
 </div>
 <div $=ScenePage key='auto43'>
@@ -172,7 +172,7 @@
 
 当多个组件选中后，我们可以做批量操作，如拷贝、移动、删除等。</pre>
   <div $=P klass='default-large-small hidden-visible-auto' data-group.optid='rewgt/shadow-slide/steps' left='{52}' top='{-158}'>
-    <span $=Img style='{{"width":"300px","height":"190px"}}' src='md/res/D170407-01/select_wdgt.png'></span>
+    <span $=Img sty__='{{"width":"300px","height":"190px"}}' src='md/res/D170407-01/select_wdgt.png'></span>
   </div>
   <pre $=MarkedDiv data-group.optid='pinp/blogs/step0' width='{334}' klass='default-large-small p1-p2-p3-p0 visible-auto-hidden' left='{45}' top='{53}'>单个构件选中后，浮动工具自动弹出，如上图，点击浮动工具可对它做相应操作。
 
@@ -217,23 +217,23 @@
     <div class='rewgt-static'><p>将右侧资源页切换到 property 页，选中一个构件后，该构件的属性将在 property 页列出，用户可以依次修改各属性值。</p></div>
   </div>
   <div $=P klass='default-large-small hidden-visible-auto' data-group.optid='rewgt/shadow-slide/steps' left='{-357}' top='{-236}'>
-    <span $=Img style='{{"width":"219px","height":"524px"}}' src='md/res/D170407-01/edit_prop.png'></span>
+    <span $=Img sty__='{{"width":"219px","height":"524px"}}' src='md/res/D170407-01/edit_prop.png'></span>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{257}' height='{79}' left='{-103}' top='{-91}' def-id='_1491904436'>
-    <div $=rewgt.SvgPanel style='{{"strokeColor":"#888","fillColor":"rgba(0,0,0,0.08)"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/cloud.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"strokeColor":"#888","fillColor":"rgba(0,0,0,0.08)"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/cloud.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default S5'>点击这个按钮切换 class 定义</pre>
     </div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S5' width='{142}' height='{52}' left='{-212}' top='{-51}' def-id='_1491904612'>
-    <div $=rewgt.SvgPanel style='{{"fillColor":"#666","strokeColor":"#c66"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[-1,["2,2",0,0,0,0,0,36,0],"lib/res/arrows.svg.json"]}'></div>
+    <div $=rewgt.SvgPanel sty__='{{"fillColor":"#666","strokeColor":"#c66"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' stroke='{2}' svg.cfg='{[-1,["2,2",0,0,0,0,0,36,0],"lib/res/arrows.svg.json"]}'></div>
   </div>
   <div $=rewgt.DrawPaper data-group.optid='pinp/blogs/steps' data-inline='1' klass='default-large-small S4' width='{257}' height='{79}' left='{-104}' top='{192}' def-id='_1491904436'>
-    <div $=rewgt.SvgPanel style='{{"strokeColor":"#888","fillColor":"rgba(0,0,0,0.08)"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/cloud.svg.json"]}'>
+    <div $=rewgt.SvgPanel sty__='{{"strokeColor":"#888","fillColor":"rgba(0,0,0,0.08)"}}' klass='default-flip_x-y nowrap-default-wrap_reverse items_center-end-stretch-default' width='{0.9999}' height='{0.9999}' svg.cfg='{[0,[],"lib/res/cloud.svg.json"]}'>
       <pre $=MarkedDiv key='txt' width='{0.9999}' klass='default-large-small p1-p2-p3-p0 align_center-right-default S5'>点击这个按钮添加 class 定义</pre>
     </div>
   </div>
-  <div $=rewgt.DrawPaper style='{{"zIndex":"0"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{267}' height='{91}' left='{-307}' top='{186}' def-id='_1491904987'>
-    <div $=rewgt.SvgPanel key='auto2' style='{{"strokeColor":"rgb(255, 127, 0)","fillColor":"rgb(255, 127, 0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{-4}' top='{-1}' width='{247}' height='{89}' svg.cfg='{[-2,["2,2",0,0,2,188.86861313868616,4.491666666666665,64.79562043795619,2.5833333333333326,0,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
+  <div $=rewgt.DrawPaper sty__='{{"zIndex":"0"}}' data-group.optid='pinp/blogs/step0' klass='default-large-small S5' width='{267}' height='{91}' left='{-307}' top='{186}' def-id='_1491904987'>
+    <div $=rewgt.SvgPanel key='auto2' sty__='{{"strokeColor":"rgb(255, 127, 0)","fillColor":"rgb(255, 127, 0)"}}' klass='nowrap-default-wrap_reverse items_center-end-stretch-default' left='{-4}' top='{-1}' width='{247}' height='{89}' svg.cfg='{[-2,["2,2",0,0,2,188.86861313868616,4.491666666666665,64.79562043795619,2.5833333333333326,0,0],"lib/res/arrows.svg.json"]}' stroke='{2}'></div>
   </div>
   <div $=Div data-group.optid='pinp/blogs/steps' width='{435}' klass='default-large-small default-align_center-right p1-p2-p3-p0 visible-auto-hidden' left='{-48}' top='{-12}'>
     <div class='rewgt-static'>
@@ -256,8 +256,8 @@
       <p>对于多子层构件，需依次选中各层，分别做配置。</p>
     </div>
   </div>
-  <div $=Panel style='{{"backgroundColor":"#eee","borderColor":"#888","opacity":"0.9"}}' data-group.optid='pinp/blogs/step1' width='{160}' height='{80}' klass='round_mask-big default-round2-round0 solid-dotted-dashed no_shadow-lb-rb-rt-lt nowrap-default-wrap_reverse visible-auto-hidden' border-width='{2}' left='{-69}' top='{73}'>
-    <pre $=MarkedDiv style='{{"color":"#222"}}' data-is.ground='1' klass='default-large-small align_center-right-default p1-p2-p3-p0 self_center-start-end-stretch-default' width='{0.9999}'>Markdown</pre>
+  <div $=Panel sty__='{{"backgroundColor":"#eee","borderColor":"#888","opacity":"0.9"}}' data-group.optid='pinp/blogs/step1' width='{160}' height='{80}' klass='round_mask-big default-round2-round0 solid-dotted-dashed no_shadow-lb-rb-rt-lt nowrap-default-wrap_reverse visible-auto-hidden' border-width='{2}' left='{-69}' top='{73}'>
+    <pre $=MarkedDiv sty__='{{"color":"#222"}}' data-is.ground='1' klass='default-large-small align_center-right-default p1-p2-p3-p0 self_center-start-end-stretch-default' width='{0.9999}'>Markdown</pre>
   </div>
 </div>
 <div $=ScenePage key='auto30'>
@@ -333,7 +333,7 @@
   <div $=rewgt.GotoPage data-group.optid='pinp/blogs/steps' width='{180}' klass='default-hidden large-small-default visible-auto-hidden default-align_center-right p1-p2-p3-p0' data-goto='0' left='{-83}' top='{53}'>
     <div $=P data-goto='' margin='{0}'>
       <span $=Canvas klass='default-hidden rewgt-goto'></span>
-      <span $=A style='{{"verticalAlign":"super","marginLeft":"4px"}}' href='javascript:void(0)'>回到首页</span>
+      <span $=A sty__='{{"verticalAlign":"super","marginLeft":"4px"}}' href='javascript:void(0)'>回到首页</span>
     </div>
   </div>
 </div>
