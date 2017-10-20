@@ -9,11 +9,15 @@
 
 ### 已计划的工作 **（进行中）**
 
-- 撰稿介绍 Shadow Widget 技术创新点。既然 React 已回归 MIT 开源怀抱，我们也没必要申请专利保护，把权利要求书初稿，用通俗语言改写，向公众开放。
+:: （无）
 
 &nbsp;
 
 ### 已发生的事件
+
+- ##### 2017-10-20 **发布文章：ReRest 可视化编程实践**
+
+:: 发布了《前端 MVVM 与 FRP 的升阶实践: ReRest 可视化编程》，从专利稿修改而来，列举了 Shadow Widget 主要技术创新，主体包含在 Reactive Resource State Transfer（简称 ReRest） 开发理念中。[点击查看本文的 PDF 格式](https://rewgt.github.io/product-blogs/md/res/D171012-01/rerest_practice.pdf)
 
 - ##### 2017-10-11 **发布 v1.1.1 版本**
 

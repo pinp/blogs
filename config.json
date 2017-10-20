@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_modify": 1507767558498,
+  "last_modify": 1508471599750,
   "user_name": "pinp",
   "imported_repos": [],
   "repos_name": "blogs",
@@ -51,7 +51,7 @@
       "tag": "H90.中文",
       "markdown": true,
       "title": "网志：拼文产品开发",
-      "modify_at": 1507767558498,
+      "modify_at": 1508471599750,
       "create_at": 1491450632363,
       "desc": "本文除了记录拼文产品的开发与维护过程中发生过的大事，还预告该产品计划要做的事情。",
       "thumb": "md/res/D170406-01/netblog.png"
