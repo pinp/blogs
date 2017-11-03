@@ -7,12 +7,6 @@
 
 &nbsp;
 
-### 已计划的工作 **（未启动）**
-
-- 在 www.pinp.me 实现一项服务：自动为博客文章建立 issue 评论列表。支持用 Web hook 将该服务挂到 Github 中指定的 blogs 项目。
-
-&nbsp;
-
 ### 已计划的工作 **（进行中）**
 
 :: （无）
@@ -21,11 +15,15 @@
 
 ### 已发生的事件
 
+- ##### 2017-11-03 ** 支持博客 push 到 github.com 时，自动预备评论列表**
+
+:: 由 www.pinp.io 提供此项服务：自动为博客文章建立 issue 评论列表。只需在 blogs 项目的 Settings 页配置 WebHook，指向 `https://www.pinp.io/git-blog/comments/zh`
+
 - ##### 2017-10-27 **为博客系统增加评论功能，借助 github 的 issue 功能实现**
 
 :: Github 一个 issue 单子，允许多人参与评论，我们用 Github API V3 接口，将评论内容嵌入到对应文章的尾部。
 
-:: 目前需在 blogs 项目手工提交一个 issue 来建立评论与文章的关联，参见 [Shadow Widget FAQ 博客](https://github.com/rewgt/faq-blogs) 下 issue 样式。今后还要开发一个功能：使用 github 的 web hook 功能，只要 blogs 项目一 push 到 github.com，就触发后台程序自动创建评论列表，并与相应文章建立关联。
+:: 目前需在 blogs 项目手工提交一个 issue 来建立评论与文章的关联，参见 [Shadow Widget FAQ 博客](https://github.com/rewgt/faq-blogs) 下 issue 样式。
 
 - ##### 2017-10-20 **发布文章：ReRest 可视化编程实践**
 
